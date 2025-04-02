@@ -60,9 +60,9 @@ void create_screen_boot_screen() {
             objects.meshtastic_url = obj;
             lv_obj_set_pos(obj, 0, LV_PCT(-15));
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-            lv_label_set_text(obj, "www.meshtastic.org");
             lv_obj_set_style_align(obj, LV_ALIGN_BOTTOM_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
             lv_obj_set_style_text_font(obj, &ui_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
+            lv_label_set_text(obj, "www.skipple.fr");
         }
         {
             // FirmwareLabel
@@ -191,10 +191,10 @@ void create_screen_boot_screen() {
                     objects.obj0 = obj;
                     lv_obj_set_pos(obj, 0, LV_PCT(-25));
                     lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-                    lv_label_set_text(obj, " www.meshtastic.org");
                     lv_obj_set_style_align(obj, LV_ALIGN_BOTTOM_MID, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_text_font(obj, &ui_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_text_color(obj, lv_color_hex(0xff000000), LV_PART_MAIN | LV_STATE_DEFAULT);
+                    lv_label_set_text(obj, " www.skipple.fr");
                 }
             }
         }

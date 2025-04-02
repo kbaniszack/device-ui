@@ -705,7 +705,7 @@
                   "type": "LVGLLabelWidget",
                   "left": 0,
                   "top": -25,
-                  "width": 218,
+                  "width": 158,
                   "height": 26,
                   "customInputs": [],
                   "customOutputs": [],
@@ -743,7 +743,7 @@
                     }
                   },
                   "groupIndex": 0,
-                  "text": " www.meshtastic.org",
+                  "text": " www.skipple.fr",
                   "textType": "literal",
                   "longMode": "WRAP",
                   "recolor": false
@@ -8392,7 +8392,7 @@
                     }
                   },
                   "groupIndex": 0,
-                  "text": "Meshtastic",
+                  "text": "Skipple",
                   "textType": "translated-literal",
                   "longMode": "WRAP",
                   "recolor": false
