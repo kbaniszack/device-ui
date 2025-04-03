@@ -5762,8 +5762,8 @@ void create_screen_main_screen() {
                             lv_obj_set_pos(obj, -5, 35);
                             lv_obj_set_size(obj, LV_PCT(80), LV_SIZE_CONTENT);
                             lv_label_set_long_mode(obj, LV_LABEL_LONG_SCROLL);
-                            lv_label_set_text(obj, "Meshtastic");
                             lv_obj_set_style_align(obj, LV_ALIGN_TOP_LEFT, LV_PART_MAIN | LV_STATE_DEFAULT);
+                            lv_label_set_text(obj, "Skipple");
                         }
                         {
                             // NodeDetailsNameShortLabel
