@@ -130,7 +130,7 @@ void create_screen_boot_screen() {
                     objects.cancel_reboot_button = obj;
                     lv_obj_set_pos(obj, 0, 0);
                     lv_obj_set_size(obj, LV_PCT(100), LV_PCT(100));
-                    lv_obj_set_style_bg_color(obj, lv_color_hex(0xff67ea94), LV_PART_MAIN | LV_STATE_DEFAULT);
+                    lv_obj_set_style_bg_color(obj, lv_color_hex(0xff08d0b5), LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_shadow_width(obj, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_shadow_ofs_y(obj, 0, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -2317,10 +2317,10 @@ void create_screen_main_screen() {
                     objects.meshtastic_label = obj;
                     lv_obj_set_pos(obj, 14, 0);
                     lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-                    lv_label_set_text(obj, _("Meshtastic"));
                     lv_obj_clear_flag(obj, LV_OBJ_FLAG_SCROLLABLE);
                     lv_obj_set_style_text_font(obj, &ui_font_montserrat_20, LV_PART_MAIN | LV_STATE_DEFAULT);
                     lv_obj_set_style_align(obj, LV_ALIGN_CENTER, LV_PART_MAIN | LV_STATE_DEFAULT);
+                    lv_label_set_text(obj, "Skipple");
                 }
             }
         }
